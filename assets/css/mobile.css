@@ -1,0 +1,51 @@
+@media  screen and (max-width: 765px) {
+
+    header,
+    .navbar-expand-lg{
+        height: auto;
+    }
+
+    main h2{
+        font-size: 36px;
+        line-height: 39.6px;
+    }
+
+    .about button{
+        margin-bottom: 30px;
+    }
+
+    .services button{
+        margin-bottom: 30px;
+    }
+
+    .services img{
+        margin-top: 20px;
+    }
+
+    .projects img{
+        width: 100%;
+        display: flex;
+        text-align: center;
+    }
+
+    .awards .lists-row{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    div.companies{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    div.contact-us{
+        text-align: left;
+        display: flex;
+        align-content: left;
+        justify-content: left;
+    }
+    div.contact{
+        display: flex;
+    }
+
+}

@@ -1,0 +1,410 @@
+ nav img{
+    height: 58px;
+    width: 58px;
+    aspect-ratio: 400/400;
+}
+
+main{
+    margin-bottom:20px;
+}
+
+section{
+    margin: 80px auto !important;
+}
+
+body{
+    margin: 0px;
+}
+
+.background-slideshow{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../img/7-bg-145.jpg);
+    animation: bgChange 20s linear infinite;
+}
+@keyframes bgChange {
+    0%{
+        background-image: url(../img/7-bg-145.jpg);
+    }
+    20%{
+        background-image: url(../img/7-bg-145.jpg);
+    }
+    25%{
+        background-image: url(../img/7-bg-15.jpg);
+    }
+    45%{
+        background-image: url(../img/7-bg-15.jpg);
+    }
+    50%{
+        background-image: url(../img/7-bg-25.jpg);
+    }
+    70%{
+        background-image: url(../img/7-bg-25.jpg);
+    }
+    75%{
+        background-image: url(../img/bg-dev-studio-08.webp);
+    }
+    95%{
+        background-image: url(../img/bg-dev-studio-08.webp);
+    }
+}
+
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+main{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 2;
+}
+
+main h2{
+    font-size: 70px;
+    font-family: var(--font-family);
+    display: block;
+    color: rgb(255, 255, 255);
+    line-height: 70px;
+    font-weight: 500;
+}
+
+main h5{
+    color:rgb(255, 255, 255);
+    display: block;
+    font-family: var(--font-family);
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 31.2px;
+    padding: 20px 0px;
+}
+
+div.lists-row{
+    margin:50px 0px;
+}
+div.icon1{
+    color: rgb(18, 165, 148);
+    font-size: 36px;
+    line-height: 36px;
+}
+
+div.list span{
+    color: rgb(51, 51, 51);
+    font-family: var(--font-family);
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 57px;
+}
+div.list p {
+    color: rgb(51, 51, 51);
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21.6px;
+}
+section.awards{
+    padding: 5px 0px;
+}
+
+section.about h2{
+    color: rgb(51, 51, 51);
+    display: block;
+    font-family: var(--font-family);
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 41.8px;
+    margin-bottom: 30px;
+}
+
+section.about p{
+    color: rgb(122, 122, 122);
+    display: block;
+    font-family: var(--font-family2);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    margin-bottom: 20px;
+    margin-block-end: 20px;
+}
+
+section.about a{
+    color: rgb(18, 165, 148) !important;
+    display: block;
+    font-size: 36px;
+    height: 36px;
+    line-height: 36px;
+    position: relative;
+}
+
+.box-content span{
+    color: rgb(51, 51, 51);
+    font-family: var(--font-family);
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 25.2px;
+    text-align: left;
+}
+
+.box-content div{
+    color: rgb(122, 122, 122);
+    display: block;
+    font-family: var(--font-family2);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22.5px;
+    padding-top: 10px;
+}
+.group{
+    padding-top: 10px;
+}
+
+section.services h2{
+    color: rgb(51, 51, 51);
+    display: block;
+    font-family: var(--font-family);
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 41.8px;
+    padding-bottom: 20px;
+}
+
+section.services p{
+    color: rgb(122, 122, 122);
+    display: block;
+    font-family: var(--font-family2);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.8px;
+    padding: 20px;
+    text-align: center;
+}
+section.services h3{
+    color: rgb(51, 51, 51);
+    display: block;
+    font-family: var(--font-family);
+    line-height: 31.2px;
+    font-size: 26px;
+    font-weight: 500;
+    margin: auto;
+    padding: 10px;
+}
+
+section.services a{
+    font-size: 20px;
+    height: 20px;
+    line-height: 20px;
+    color: rgb(18, 165, 148) !important;
+    padding-right: 10px;
+}
+
+section.services h4{
+    color: rgb(122, 122, 122);
+    display: block;
+    font-family: var(--font-family2);
+    font-size: 16px;
+    line-height: 25.6px;
+    font-weight: 500;
+}
+
+section.info h3{
+    color: rgb(51, 51, 51);
+    display: block;
+    font-family: var(--font-family);
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 31.2px;
+}
+
+section.info a, section.info span{
+    color: rgb(18, 165, 148) !important;
+    font-family: var(--font-family);
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+section.info{
+    padding: 50px 0px;
+}
+
+section.projects h2{
+    color: rgb(51, 51, 51);
+    display: block;
+    font-family: var(--font-family);
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 41.8px;
+}
+
+section.projects p{
+    color: rgb(122, 122, 122);
+    display: block;
+    font-family: var(--font-family2);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    text-align: center;
+    padding: 20px;
+}
+
+ div.image img{
+    height: 300px;
+    cursor: pointer;
+    transition-delay: 0s;
+    transition-duration: 0.33s;
+ }
+
+ div.image img:hover{
+    filter: brightness(60%);
+ }
+
+ div.image a{
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+    cursor: pointer;
+    font-family: var(--font-family);
+    font-size: 21px;
+    line-height: 25.2px;
+    font-weight: 500;
+    margin: 30px;
+    transition-delay: 0s;
+    transition-duration: 0.33s;
+ }
+
+ div.image a:hover{
+    color: rgb(18, 165, 148) !important;
+ }
+
+ div.companies img{
+    aspect-ratio: 1.75 / 1;
+    display: block;
+    max-width: 100%;
+    position: relative;
+    width: 200px;
+    cursor: pointer;
+    transition-delay: 0s;
+    transition-duration: 0.33s;
+ }
+
+ section.companies{
+    padding: 50px 0px;
+ }
+
+ div.companies img:hover{
+    opacity: 60%;
+ }
+
+ div.item img{
+    width: 200px;
+    height: 100px;
+    position: relative;
+    cursor: pointer;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    aspect-ratio: 1 / 1;
+ }
+
+ div.item p{
+    color: rgb(51, 51, 51);
+    cursor: pointer;
+    display: inline-block;
+    font-family: var(--font-family);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23.4px;
+ }
+
+ div.item p:hover{
+    color: rgb(18, 165, 148);
+ }
+
+ div.item span{
+    color: rgb(178, 174, 174);
+    cursor: pointer;
+    font-family: var(--font-family2);
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16.9px;
+ }
+
+ div.icon3{
+    color: rgb(18, 165, 148);
+    display: block;
+    font-size: 24px;
+    font-weight: 400;
+    height: 24px;
+ }
+
+ div.contact a{
+    color: rgb(255, 255, 255) !important;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 31.2px;
+ }
+
+ div.contact a.email{
+    font-size: 16px;
+    line-height: 20.8px;
+    color: rgb(255, 255, 255);
+ }
+
+ div.contact p{
+    color: rgba(255, 255, 255, 0.55);
+    display: block;
+    font-family: var(--font-family2);
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16.9px;
+ }
+
+ div.icon4{
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: block;
+    font-size: 18px;
+    height: 18px;
+    line-height: 18px;
+    position: relative;
+    transition-duration: 0.33s;
+    transition-delay: 0s;
+ }
+
+ div.icon4:hover{
+    color: rgb(18, 165, 148);
+ }
+
+ footer{
+    padding: 70px 0px;
+ }
+
+ .copyright-footer div{
+    color: rgba(255, 255, 255, 0.55);
+    display: block;
+    font-family: var(--font-family2);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16.9px;
+ }
+
+ .copyright-footer{
+    padding-top: 40px;
+    margin-top: 30px;
+ }
+
+ .terms div:hover{
+    color: rgb(18, 165, 148);
+ }
